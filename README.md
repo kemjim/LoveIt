@@ -119,7 +119,7 @@ LoveIt
 |   |__ form_women_shirts_liked.html
 |   |__ homepage.html
 |   |__ results.html
-|__ server.py
+|__ loveit.py
 |__ presentation.pdf
 |__ .ipynb_checkpoints
 |__ assets
