@@ -1,0 +1,58 @@
+<!--/* Meta section adapted from:
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE) -->
+ <!-- The head part was adapted from PyDisaster group project of Tiffany Houston, Anshul Tiwari, Jason Huang, and Kemalcan Alaeddinoglu  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-16">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>LoveIt!</title>
+
+</head>
+
+<body style="background-color:#5CDB95;" >
+  <div class="header-img">
+    <div class="header-overlay">
+    <div class="header-text" style="text-align:center; color:red; font-size:26px;"><h1><i><a href="/" style="color:#595d63; text-decoration: none">LoveIt!</a></i></h1></div>
+    </div>
+  </div>
+<p class="step" style="text-align:left; color:navy"> You are in step 3: In this step you will be choosing a shirt that you want to test
+</p>
+  <form action="/form_women_shirts_check" method="POST" enctype="multipart/form-data">
+
+    <div class="form-group" style="color:navy">
+      <!-- <label>Please select gift you want to test</label> -->
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" name="image" id="image">
+        <label class="custom-file-label" for="image"></label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload</button>
+
+ </form>
+ <br>
+ </br>
+  <br>
+  </br>
+  <br>
+  </br>
+  <p class="pictures_list">
+    <img src="{{url_for('static', filename='women_shirts/photo_2.jpeg')}}"  alt="woman1" hspace=65 ></img>
+    <img src="{{url_for('static', filename='women_shirts/photo_1.jpeg')}}" alt="asian woman" hspace=65 ></img>
+    <img src="{{url_for('static', filename='women_shirts/photo_3.jpeg')}}" hspace=65 ></img>
+    <img src="{{url_for('static', filename='women_shirts/photo_4.jpeg')}}" alt="woman" hspace=65 ></img>
+  </p>
+</body>
+<br>
+</br>
+<br>
+</br>
+<foot>
+  <div class="header-text-2" style="color:navy">by Kemalcan Alaeddinoglu </div>
+</foot>
+</html>
