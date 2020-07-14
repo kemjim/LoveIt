@@ -98,9 +98,6 @@ LoveIt
 |   |__ shoes
 |   |__ women_dress
 |   |__ women_shirts
-|   |__ musical_data_vectors_labels.csv
-|   |__ musical_sentiments.csv
-|   |__ musical_for_app.csv
 |__ test
 |__ train
 |__ templates
