@@ -63,7 +63,7 @@ Currently, there are 4 product categories. I need to add more categories before 
 
 I concluded that the accuracy of the model is primarily dependent on the number images that were used to train the model. Regarless of the hyperparamateres, when we fit the model with less than 40 images (both liked and disliked items), I could not exceed the 70% accuracy. I have better results with 40+ images. That's the reason why we have to make sure that the users upload at least 40 photos.
 Another finding is that, when we use binary class dense layer, (1 dense layer with 'sigmoid' activation function) the accuracy is also lower than 50%. When we change the number of dense layer to 2 and use 'softmax' activation function, the accuracy rate increased over 50%. This is quite interesting because, the actual business problem is a binary classification problem.
-Since this is a practical and fun project, I have to emphasize that the model is trying to imitate a person's taste. Usually, it is a difficult process to formulize a person's taste. Our model uses similarity between images to decide whether it is a good gift or not. Similarity, however, may be insufficient to describe a pattern in people's tastes.
+Since this is a practical and fun project, I have to emphasize that the model is trying to imitate a person's taste. Usually, it is a difficult process to formulate a person's taste. Our model uses similarity between images to decide whether it is a good gift or not. As people's taste evolve, so to will LoveIt!'s ability to predict their good taste.
 
 
 ## Project Directory
