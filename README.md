@@ -16,7 +16,7 @@ The data, which consists of the photos of favorite items, disliked items, and a 
 ---
 ## Methodology & Analysis
 
-In order to analyze visual imagery, I chose to use convolutional neural network. Below Python and neural network libraries wre used in the project.
+In order to analyze visual imagery, I chose to use convolutional neural network. Below Python and neural network libraries were used in the project.
 - [Tensorflow](https://www.tensorflow.org/): Tensorflow and Keras were used to create a Sequential model and implement the layers and regularizations
 - [Scikit-Learn](https://scikit-learn.org/): GridSearchCV to find the best parameters
 - [Matplotlib](https://matplotlib.org/): img method was used to extract photo digital data and plt method was used for data visualizations
